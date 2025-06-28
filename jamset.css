@@ -109,3 +109,13 @@ background: rgb(237, 0, 138);
 .e-popup__footer {
 background-image: linear-gradient(to bottom, rgb(47, 19, 90) 0%, rgb(26, 8, 51) 100%);
 }
+.e-popup__body {
+display: flex;
+flex-direction: column;
+padding: 0px;
+position: relative;
+width: 100%;
+}
+.e-popup__body {
+padding: 0px;
+}
