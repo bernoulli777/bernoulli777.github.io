@@ -1,0 +1,110 @@
+.mobile-reservation {
+font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+background: none;
+text-shadow: 0 -1px 0 #000, 0 0 4px #000;
+}
+.event-header {
+background:linear-gradient(to top, rgba(26, 10, 51, 0.8) 70%, rgba(0, 0, 0, 0.1) 100%);
+    z-index: 0;
+}
+.header-mobile__container {
+background:linear-gradient(to bottom, rgba(47, 19, 90, 0.8) 0%, rgba(0, 0, 0, 0.1) 100%);
+    z-index:0;
+}
+::selection {
+background-color: #dfdcde;
+}
+.header-mobile__info-btn {
+color: #ffffff;
+}
+.header-mobile__info-box p {
+    color: #ffffff;
+    opacity: 0.8
+}
+.header-mobile__event-title {
+font-family: 'TTNorms Bold',sans-serif;
+font-weight: 800;
+color: #ffffff;
+}
+.switcher__chevron {
+border-bottom: 1px solid #ffffff;
+border-right: 1px solid #ffffff;
+}
+.header-mobile__event-title__age-rating {
+border: 2px solid #ffffff;
+color: #ffffff;
+}
+.content__wrapper {
+    background: url(https://cb82559.tw1.ru/5-2web.jpg);
+    width: 100%;
+    background-size: 150%;
+    background-position: center top;
+}
+.mobile-reservation:before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, .6);
+}
+.mobile-reservation .ticket__title {
+font-family: 'TTNorms Bold',sans-serif;
+font-size: 26px;
+font-weight: 800;
+color: #ffffff;
+}
+.mobile-reservation .ticket__text {
+font-size: 16px;
+font-weight: 400;
+color: #ffffff;
+opacity: 0.8;
+}
+.mobile-reservation .ticket-price {
+font-size: 26px;
+font-weight: 800;
+color: #ffffff;
+}
+.mobile-header-bottom__offer-link-box {
+color: #ffffff;
+opacity: 0.8;
+text-align: center;
+}
+.mobile-header-bottom a, .mobile-header-bottom .link_blue, .mobile-header-bottom .link_blue:link, mobile-header-bottom .link_blue:visited {
+color: #915ae8!important;
+}
+.input-counter_down:after, .input-counter_down:before, .input-counter_up:after, .input-counter_up:before {
+background: #000;
+opacity: 0.8;
+}
+.ticket__quantity input {
+font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 16px;
+line-height: 1.6;
+letter-spacing: 0em;
+}
+.event-header_bottom .mobile-order-total__number {
+align-items: center;
+color: rgb(237, 0, 138);
+font-size: 20px;
+}
+.event-header__link_next {
+background: rgb(237, 0, 138);
+}
+.event-header_bottom .mobile-order-total__amount {
+color: #ffffff;
+opacity: 0.8;
+}
+rect.payment-countdown__filled_bg {
+fill: rgb(237, 0, 138)
+}
+.event-header__link_back:after, .event-header__link_back:before {
+background: rgb(237, 0, 138);
+}
+.e-popup__footer {
+background-image: linear-gradient(to bottom, rgb(47, 19, 90) 0%, rgb(26, 8, 51) 100%);
+}
