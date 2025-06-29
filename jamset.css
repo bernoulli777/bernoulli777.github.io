@@ -46,7 +46,8 @@ color: #ffffff;
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color:rgba(0, 0, 0, .6);
+	/*background-color:rgba(0, 0, 0, .6);*/
+	background-image: linear-gradient(rgba(25, 12, 44, 0.66) 71.01%, rgba(22, 9, 42, 1) 88.66%);
 }
 .mobile-reservation .ticket__title {
 font-family: 'TTNorms Bold',sans-serif;
