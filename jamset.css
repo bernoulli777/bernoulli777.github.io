@@ -113,3 +113,8 @@ box-shadow: none;
 background: rgb(213, 0, 124);
 border-color: rgb(190, 0, 110);
 }
+.mobile-promo-popup .btn_green[disabled], .mobile-promo-popup .btn_green[disabled]:active, .mobile-promo-popup .btn_green[disabled]:focus, .mobile-promo-popup .btn_green[disabled]:hover {
+background: rgb(213, 0, 124);
+border-color: rgb(190, 0, 110);
+box-shadow: none;
+}
