@@ -107,6 +107,7 @@ background-image: linear-gradient(to bottom, rgb(47, 19, 90) 0%, rgb(26, 8, 51) 
 .mobile-promo-popup .btn_green {
 background: rgb(237, 0, 138);
 box-shadow: none;
+}
 .mobile-promo-popup .btn_green:focus, .mobile-promo-popup .btn_green:hover {
 background: rgb(213, 0, 124);
 border-color: rgb(190, 0, 110);
@@ -115,4 +116,10 @@ border-color: rgb(190, 0, 110);
 background: rgb(213, 0, 124);
 border-color: rgb(190, 0, 110);
 box-shadow: none;
+}
+.btn_green[disabled], .btn_green[disabled]:active, .btn_green[disabled]:focus, .btn_green[disabled]:hover {
+background: linear-gradient(180deg,#80ac00,#318b02);
+border-top: none;
+box-shadow: 0 2px 0 #297002;
+color: hsla(0,0%,100%,.4);
 }
