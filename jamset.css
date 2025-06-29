@@ -106,3 +106,10 @@ background: rgb(237, 0, 138);
 .e-popup__footer {
 background-image: linear-gradient(to bottom, rgb(47, 19, 90) 0%, rgb(26, 8, 51) 100%);
 }
+.mobile-promo-popup .btn_green {
+background: rgb(237, 0, 138);
+box-shadow: none;
+.mobile-promo-popup .btn_green:focus, .mobile-promo-popup .btn_green:hover {
+background: rgb(213, 0, 124);
+border-color: rgb(190, 0, 110);
+}
