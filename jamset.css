@@ -2,6 +2,7 @@
 background: url(https://bernoulli777.github.io/5-2web.jpg)no-repeat;
 background-color:rgb(33, 12, 65);
 background-size: 150%;
+max-height: 100%;
 background-position: center top;
 font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 text-shadow: 0 -1px 0 #000, 0 0 4px #000;
