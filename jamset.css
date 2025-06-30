@@ -7,10 +7,10 @@ font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 text-shadow: 0 -1px 0 #000, 0 0 4px #000;
 }
 .event-header {
-background-image: linear-gradient(to bottom, rgb(22, 9, 42) 0%, rgb(26, 8, 51) 100%);
+background: linear-gradient(to bottom, rgb(22, 9, 42) 0%, rgb(26, 8, 51) 100%);
 }
 .header-mobile__container {
-background-image:linear-gradient(to bottom, rgba(47, 19, 90, 0.8) 0%, rgba(0, 0, 0, 0.1) 100%);
+background:linear-gradient(to bottom, rgba(47, 19, 90, 0.8) 0%, rgba(0, 0, 0, 0.1) 100%);
     z-index:0;
 }
 ::selection {
@@ -47,7 +47,7 @@ color: #ffffff;
 	right: 0;
 	bottom: 0;
 	/*background-color:rgba(0, 0, 0, .6);*/
-	background-image: linear-gradient(rgba(25, 12, 44, 0.66) 71.01%, rgba(22, 9, 42, 1) 88.66%);
+	background: linear-gradient(rgba(25, 12, 44, 0.66) 71.01%, rgba(22, 9, 42, 1) 88.66%);
 }
 .mobile-reservation .ticket__title {
 font-family: 'TTNorms Bold',sans-serif;
@@ -103,7 +103,7 @@ fill: rgb(237, 0, 138)
 background: rgb(237, 0, 138);
 }
 .e-popup__footer {
-background-image: linear-gradient(to bottom, rgb(47, 19, 90) 0%, rgb(26, 8, 51) 100%);
+background: linear-gradient(to bottom, rgb(47, 19, 90) 0%, rgb(26, 8, 51) 100%);
 }
 .mobile-promo-popup .btn_green {
 background: rgb(237, 0, 138);
