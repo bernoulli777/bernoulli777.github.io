@@ -1,5 +1,5 @@
 .mobile-reservation {
-background: url(https://bernoulli777.github.io/5-2web.jpg)no-repeat;
+background-image: url(https://bernoulli777.github.io/5-2web.jpg)no-repeat;
 background-color:rgb(33, 12, 65);
 background-size: 150%;
 background-position: center top;
@@ -10,7 +10,7 @@ text-shadow: 0 -1px 0 #000, 0 0 4px #000;
 background-image: linear-gradient(to bottom, rgb(22, 9, 42) 0%, rgb(26, 8, 51) 100%);
 }
 .header-mobile__container {
-background:linear-gradient(to bottom, rgba(47, 19, 90, 0.8) 0%, rgba(0, 0, 0, 0.1) 100%);
+background-image:linear-gradient(to bottom, rgba(47, 19, 90, 0.8) 0%, rgba(0, 0, 0, 0.1) 100%);
     z-index:0;
 }
 ::selection {
